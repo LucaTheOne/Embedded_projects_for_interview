@@ -1,0 +1,9 @@
+[0] Unknown encoding: 24 signal bits
+    Signal: SS:LL:SS:LL:SS:SS:LL:LL:SS:LL:SS:LL:SP
+    T=UNK, E=0, I=21504, S=640, L=1336, P=21504, Y=0, Z=656
+[1] Received 12 bits: 05 55
+    T=TRN, E=0, I=0, S=640, L=1336, P=21504, Y=640, Z=656
+[2] Received 11 bits(!): 02 ad
+    T=TRN, E=1, I=0, S=640, L=1336, P=21504, Y=640, Z=656
+[3] Received 12 bits: 05 55
+    T=TRN, E=0, I=0, S=640, L=1336, P=21504, Y=640, Z=624

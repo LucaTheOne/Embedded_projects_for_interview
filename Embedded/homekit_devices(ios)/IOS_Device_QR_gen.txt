@@ -1,0 +1,4 @@
+
+Tramite questo comando, sostituendo i campi <> si crea un qr per aggiungere il dispositivo ad HomeKit
+
+npx homekit-code qrcode --category=<category> --pairingCode=<pairing_code> --setupId=<id>

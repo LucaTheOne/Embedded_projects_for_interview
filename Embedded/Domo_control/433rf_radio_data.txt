@@ -1,0 +1,40 @@
+
+-----CODE START-----
+// [Casa asia]
+Dati: {07, bf, 65, cf, 7f, 66, db}
+Funzione:
+rf.register_Receiver(
+	RFMOD_TRIBIT_INVERTED, // mod
+	25960, // initseq
+	2572, // lo_prefix
+	916, // hi_prefix
+	378, // first_lo_ign
+	378, // lo_short
+	912, // lo_long
+	0, // hi_short (0 => take lo_short)
+	0, // hi_long  (0 => take lo_long)
+	352, // lo_last
+	25960, // sep
+	51  // nb_bits
+);
+-----CODE END-----
+
+-----CODE START-----
+// [Casa mia]
+Dati: {0x67,0xe7,0Xc7}
+Funzione:
+rf.register_Receiver(
+	RFMOD_TRIBIT_INVERTED, // mod
+	24332, // initseq
+	0, // lo_prefix
+	0, // hi_prefix
+	300, // first_lo_ign
+	300, // lo_short
+	554, // lo_long
+	0, // hi_short (0 => take lo_short)
+	0, // hi_long  (0 => take lo_long)
+	304, // lo_last
+	24332, // sep
+	24  // nb_bits
+);
+-----CODE END-----

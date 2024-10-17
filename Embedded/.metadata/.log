@@ -1,0 +1,103 @@
+!SESSION 2024-02-03 15:45:09.283 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=aarch64, WS=cocoa, NL=it_IT
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os macosx -ws cocoa -arch aarch64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2024-02-03 15:47:30.355
+!MESSAGE Unexpected exception: Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:831)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:421)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:958)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:621)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$3.run(MarketplaceWizard.java:854)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.hc.client5.http.HttpResponseException: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponseStatus(RequestTemplate.java:97)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponse(RequestTemplate.java:64)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:46)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:38)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:822)
+	... 5 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2024-02-03 15:47:30.356
+!MESSAGE Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+!STACK 0
+org.apache.hc.client5.http.HttpResponseException: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponseStatus(RequestTemplate.java:97)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponse(RequestTemplate.java:64)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:46)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:38)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:822)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:421)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:958)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:621)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$3.run(MarketplaceWizard.java:854)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2024-02-03 15:48:02.576
+!MESSAGE Unexpected exception: Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:831)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:421)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:958)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:621)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$3.run(MarketplaceWizard.java:854)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.hc.client5.http.HttpResponseException: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponseStatus(RequestTemplate.java:97)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponse(RequestTemplate.java:64)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:46)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:38)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:822)
+	... 5 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2024-02-03 15:48:02.576
+!MESSAGE Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+!STACK 0
+org.apache.hc.client5.http.HttpResponseException: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponseStatus(RequestTemplate.java:97)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponse(RequestTemplate.java:64)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:46)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:38)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:822)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:421)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:958)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:621)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$3.run(MarketplaceWizard.java:854)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2024-02-03 15:49:35.928
+!MESSAGE Unexpected exception: Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+!STACK 1
+org.eclipse.core.runtime.CoreException: Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:831)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:421)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:958)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:621)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$3.run(MarketplaceWizard.java:854)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.hc.client5.http.HttpResponseException: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponseStatus(RequestTemplate.java:97)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponse(RequestTemplate.java:64)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:46)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:38)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:822)
+	... 5 more
+!SUBENTRY 1 org.eclipse.epp.mpc.core 4 0 2024-02-03 15:49:35.928
+!MESSAGE Cannot complete request to https://marketplace.eclipse.orginstall/error/report: status code: 400, reason phrase: Bad Request
+!STACK 0
+org.apache.hc.client5.http.HttpResponseException: status code: 400, reason phrase: Bad Request
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponseStatus(RequestTemplate.java:97)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.handleResponse(RequestTemplate.java:64)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:46)
+	at org.eclipse.epp.internal.mpc.core.transport.httpclient.RequestTemplate.execute(RequestTemplate.java:38)
+	at org.eclipse.epp.internal.mpc.core.service.DefaultMarketplaceService.reportInstallError(DefaultMarketplaceService.java:822)
+	at org.eclipse.epp.internal.mpc.core.service.CachingMarketplaceService.reportInstallError(CachingMarketplaceService.java:421)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceDiscoveryStrategy.installErrorReport(MarketplaceDiscoveryStrategy.java:958)
+	at org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceCatalog.installErrorReport(MarketplaceCatalog.java:621)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceWizard$3.run(MarketplaceWizard.java:854)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

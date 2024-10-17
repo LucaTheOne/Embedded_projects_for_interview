@@ -1,0 +1,4 @@
+[0] Received 24 bits: b9 4d 24
+    T=TRI, E=0, I=5632, S=384, L=1032, P=5632, Y=0, Z=352
+[1] Received 24 bits: b9 4d 24
+    T=TRI, E=0, I=0, S=384, L=1032, P=10624, Y=0, Z=320

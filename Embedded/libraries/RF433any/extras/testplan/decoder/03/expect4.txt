@@ -1,0 +1,4 @@
+[0] Received 32 bits: b5 35 6d 00
+    T=TRI, E=0, I=6784, S=592, L=1216, P=6784, Y=0, Z=560
+[1] Received 32 bits: b5 35 6d 00
+    T=TRI, E=0, I=0, S=592, L=1216, P=6912, Y=0, Z=400
